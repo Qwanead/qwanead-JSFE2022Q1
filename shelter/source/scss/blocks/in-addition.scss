@@ -1,0 +1,52 @@
+.in-addition {
+  background-color: $color-light-l;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.in-addition__container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-addition__content {
+  width: 380px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inaddition__header {
+  color: $color-dark-l;
+}
+
+.in-addition__text {
+  color: $color-dark-l;
+}
+
+.in-addition__bank-card {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+
+  background-color: $color-primary;
+  border-radius: 9px;
+  transition: all $transition;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+}
+
+.in-addition__bank-card-num {
+  color: $color-dark-l;
+}
+
+.in-addition__footnote {
+  color: $color-dark-m;
+}
+

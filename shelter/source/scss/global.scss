@@ -27,18 +27,57 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 24px;
-  line-height: 1.25;
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
-pre {
-  overflow-x: auto;
-  font-size: 16px;
-  width: 100%;
-  padding: 20px;
-  border: 1px solid rgb(204, 89, 6);
-  background-color: #252525;
-  color: rgba(255, 255, 255, 0.7);
-  border-radius: 15px 0 15px 0;
+.h2 {
+  font-family: $sec-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+}
+
+.h3 {
+  font-family: $sec-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
+.h4 {
+  font-family: $sec-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+}
+
+.h5 {
+  font-family: $sec-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+}
+
+.p-l {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.p-s {
+  font-family: $main-font;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
 }

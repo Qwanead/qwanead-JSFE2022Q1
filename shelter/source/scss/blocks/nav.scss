@@ -1,23 +1,37 @@
-.nav {
+// nav
+.nav__list {
+  list-style: none;
   display: flex;
-  justify-content: left;
+  gap: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  height: 27px;
+
+  &--active {
+    border-bottom: 3px solid $color-primary;
+  }
 }
 
 .nav__link {
-  display: flex;
-  align-items: flex-start;
-  padding: 10px 0;
-}
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: $color-dark-s;
+  transition: all $transition;
 
-.nav__title {
-  color: #cc5906;
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  font-weight: bold;
-}
+  &:hover,
+  &:active {
+    color: $color-light-s;
+  }
 
-.nav__logo {
-  width: 50px;
-  margin-right: 20px;
+  &--active {
+    color: $color-light-s;
+  }
 }
