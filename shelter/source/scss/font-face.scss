@@ -1,15 +1,6 @@
 /* Добавьте сюда все @font-face, которые будут использоваться в проекте  */
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-    url("../fonts/Roboto-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Georgia";
   src: url("/shelter/source/fonts/georgia/georgia-regular.ttf") format("ttf");
   font-weight: 400;
