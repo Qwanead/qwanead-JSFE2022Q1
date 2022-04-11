@@ -1,0 +1,47 @@
+.footer {
+  background-image: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+.footer__wrapper {
+  background-image: url('/img/noise_transparent.png');
+  background-repeat: repeat;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 350px;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+
+  &--questions {
+    width: 279px;
+  }
+
+  &--visit {
+    width: 302px;
+  }
+
+  &--img {
+    align-self: end;
+    width: 300px;
+  }
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: $color-light-xl;
+}
+.footer__link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+// .footer__icon {}
+.footer__link {
+  color: $color-primary;
+}
+// .footer__visit {}

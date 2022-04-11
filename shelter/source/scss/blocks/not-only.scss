@@ -17,9 +17,11 @@
 .not-only__content__wrapper {
   width: 460px;
   align-self: center;
+  min-height: 400px;
 }
 
 .not-only__header {
+  width: 320px;
   color: $color-light-xl;
   margin-bottom: 42px;
 }
