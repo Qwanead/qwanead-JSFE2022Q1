@@ -38,4 +38,17 @@
   &--round {
     padding: 0;
   }
+
+  &--disabled {
+    cursor: default;
+    color: $color-dark-s;
+    border: 2px solid $color-dark-s;
+    background-color: transparent;
+
+    &:hover {
+      color: $color-dark-s;
+      border: 2px solid $color-dark-s;
+      background-color: transparent;
+    }
+  }
 }

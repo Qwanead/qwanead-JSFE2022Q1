@@ -3,6 +3,12 @@
   width: $sm;
   padding: 0 20px;
 
+  &--fixed {
+    width: 100%;
+    position: fixed;
+    background-color: $color-light-xl;
+  }
+
   @media screen and (min-width: $md) {
     width: $md;
     padding: 0 40px;

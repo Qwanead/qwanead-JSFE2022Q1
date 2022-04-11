@@ -1,13 +1,13 @@
 .card {
   list-style: none;
   padding: 0;
-  cursor: pointer;
   display: flex;
   gap: 90px;
   margin: 0;
 }
 
 .card__item {
+  cursor: pointer;
   width: 270px;
   height: 425px;
   background-color: $color-light-s;

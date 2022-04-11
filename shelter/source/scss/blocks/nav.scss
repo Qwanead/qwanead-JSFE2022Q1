@@ -1,4 +1,21 @@
-// nav
+.nav {
+  &--contrast {
+    .nav__link {
+      color: $color-dark-l;
+
+      &:hover {
+        color: $color-dark-3xl;
+      }
+    }
+
+    .nav__link--active {
+      &:hover {
+        color: $color-dark-l;
+      }
+    }
+  }
+}
+
 .nav__list {
   list-style: none;
   display: flex;
