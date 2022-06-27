@@ -1,0 +1,26 @@
+// .about {}
+
+.about__container {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__content {
+  width: 430px;
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about__header {
+  width: 400px;
+  color: $color-dark-l;
+}
+
+.about__text {
+  color: $color-dark-xl;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="HTML5 webpack boilerplate" />
+  <title>Shelter</title>
+  <link rel="stylesheet" href="./vendors/normalize-css/normalize.min.css" />
+  <script>
+    if (!window.HTMLPictureElement) {
+      document.createElement('picture');
+    }
+  </script>
+</head>
+<body>
+  <div class="container--fixed">
+    <div class="container">
+      <header class="header header--sticky">
+        <a class="logo logo--contrast" href="./index.html">
+          <h1 class="logo__header">Cozy House</h1>
+          <p class="logo__text">Shelter for pets in Boston</p>
+        </a>
+
+          <nav class="nav nav--contrast">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="./index.html">About the shelter</a>
+              </li>
+              <li class="nav__item nav__item--active">
+                <a class="nav__link nav__link--active" href="./our-pets.html">Our pets</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="./index.html#help">Help the shelter</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#footer">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+      </header>
+    </div>
+  </div>
+
+  <main>
+  <!--index/main.html-->
+  <%= _.template(require('../includes/our-pets/our-pets.html').default)({}) %>
+  </main>
+  <!--footer.html-->
+  <%= _.template(require('../includes/common/footer.html').default)({}) %>
+</body>
+</html>

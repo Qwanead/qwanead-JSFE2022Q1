@@ -1,0 +1,38 @@
+.logo {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &--contrast {
+    .logo__header {
+      color: $color-dark-l;
+    }
+
+    .logo__text {
+      color: $color-dark-3xl;
+    }
+
+  }
+}
+
+.logo__header {
+  font-family: $sec-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: $color-primary;
+}
+
+.logo__text {
+  padding-left: 4px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: $color-light-xl;
+}

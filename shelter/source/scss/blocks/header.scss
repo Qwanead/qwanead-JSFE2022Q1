@@ -1,0 +1,12 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &--sticky {
+    height: 120px;
+    top: 0;
+    position: sticky;
+  }
+}

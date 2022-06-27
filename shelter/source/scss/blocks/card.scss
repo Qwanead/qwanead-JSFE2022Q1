@@ -1,0 +1,46 @@
+.card {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 90px;
+  margin: 0;
+}
+
+.card__item {
+  cursor: pointer;
+  width: 270px;
+  height: 425px;
+  background-color: $color-light-s;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  &:hover {
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    background-color: $color-light-xl;
+
+    & .card__btn {
+      background: $color-primary;
+    }
+  }
+}
+
+// .card__img {
+
+// }
+
+.card__name {
+  font-family: $sec-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: $color-dark-l;
+}
+
+// .card__btn {
+
+// }

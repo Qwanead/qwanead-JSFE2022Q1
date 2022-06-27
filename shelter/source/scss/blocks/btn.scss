@@ -1,0 +1,54 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 52px;
+  min-width: 52px;
+  padding: 0 45px;
+
+  letter-spacing: 0.06em;
+
+  color: $color-dark-3xl;
+  border: none;
+  border-radius: 100px;
+  background: $color-primary;
+
+  font-family: 'Georgia';
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 130%;
+  transition: all $transition;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+
+  &--light {
+    background-color: $color-light-xl;
+    border: 2px solid $color-primary;
+
+    &:hover {
+      background: $color-primary;
+    }
+  }
+
+  &--round {
+    padding: 0;
+  }
+
+  &--disabled {
+    cursor: default;
+    color: $color-dark-s;
+    border: 2px solid $color-dark-s;
+    background-color: transparent;
+
+    &:hover {
+      color: $color-dark-s;
+      border: 2px solid $color-dark-s;
+      background-color: transparent;
+    }
+  }
+}
